@@ -3,7 +3,7 @@ import { RiSearchLine } from 'react-icons/ri'
 
 export function Header() {
     return (
-        <Flex as="header" w="100%" maxWidth={1480} h="20" marginX="auto" marginTop="4" paddingX="6" align="center">
+        <Flex as="header" width="100%" maxWidth={1480} height="20" marginX="auto" marginTop="4" paddingX="6" align="center">
             <Text fontSize="3xl" fontWeight="bold" letterSpacing="tight" w="64">
                 dashgo
                 <Text as="span" marginLeft="1" color="pink.500">.</Text>
