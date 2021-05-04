@@ -3,7 +3,7 @@ import { Input } from '../components/Form/Input'
 
 export default function SignIn() {
   return (
-    <Flex w="100w" h="100vh" alignItems="center" justifyContent="center">
+    <Flex width="100w" height="100vh" alignItems="center" justifyContent="center">
       <Flex as="form" width="100%" maxWidth={360} backgroundColor="gray.800" padding="8" borderRadius={8} flexDirection="column">
 
         <Stack spacing="4">
